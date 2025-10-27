@@ -30,7 +30,8 @@ public interface AccountController {
     );
 
     @GetMapping("/account")
-    public ResponseEntity<List<AccountOut>> findAll();
+    public ResponseEntity<List<AccountOut>> findAll(
+    );
 
     @DeleteMapping("/account/{id}")
     public ResponseEntity<Void> delete(

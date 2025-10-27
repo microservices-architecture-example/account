@@ -1,3 +1,4 @@
+store\account\Role.class
 store\account\AccountIn.class
 store\account\AccountIn$AccountInBuilder.class
 store\account\AccountOut$AccountOutBuilder.class
